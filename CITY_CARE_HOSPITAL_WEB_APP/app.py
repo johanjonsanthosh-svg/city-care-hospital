@@ -108,7 +108,7 @@ BASE = """
 {% endwith %}
 {{ content|safe }}
 </main>
-<footer class="footer">City Care Hospital • School Project Web Version</footer>
+<footer class="footer">City Care Hospital </footer>
 </body>
 </html>
 """
