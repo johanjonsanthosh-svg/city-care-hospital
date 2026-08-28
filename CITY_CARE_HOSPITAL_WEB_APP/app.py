@@ -308,7 +308,7 @@ def identity_form(action, title, description):
       <button class="btn primary" type="submit">SEARCH</button>
     </form></div>
     """
-    return page(title, body, action=action, title=title, description=description)
+    return page(body, action=action, title=title, description=description)
 
 @app.route("/patient/appointments", methods=["GET","POST"])
 def patient_appointments():
